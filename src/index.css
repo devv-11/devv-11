@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon: #00ff41;
+  --color-neon-dim: #00cc33;
+  --color-cyan: #00d4ff;
+  --color-dark-bg: #0a0a0f;
+  --color-dark-card: #111118;
+  --color-dark-border: #1a1a2e;
+  --color-dark-surface: #16161f;
+  --font-mono: "Fira Code", "JetBrains Mono", "Cascadia Code", monospace;
+  --font-body: "Space Grotesk", "Inter", sans-serif;
+}
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-neon) var(--color-dark-bg);
+  }
+
+  ::selection {
+    background-color: rgba(0, 255, 65, 0.2);
+    color: var(--color-neon);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-dark-bg);
+    color: #c0c0c0;
+    font-family: var(--font-body);
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-dark-bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-neon);
+    border-radius: 3px;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 255, 65, 0.5), 0 0 20px rgba(0, 255, 65, 0.3);
+  }
+
+  .text-glow-cyan {
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5), 0 0 20px rgba(0, 212, 255, 0.3);
+  }
+
+  .border-glow {
+    box-shadow: 0 0 8px rgba(0, 255, 65, 0.15), inset 0 0 8px rgba(0, 255, 65, 0.05);
+  }
+
+  .border-glow-hover:hover {
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.3), inset 0 0 15px rgba(0, 255, 65, 0.08);
+  }
+
+  .card-gradient {
+    background: linear-gradient(135deg, rgba(17, 17, 24, 0.9), rgba(22, 22, 31, 0.9));
+  }
+
+  .neon-line {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--color-neon), transparent);
+  }
+
+  .typing-cursor::after {
+    content: "|";
+    animation: blink 1s step-end infinite;
+    color: var(--color-neon);
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes scanline {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100vh); }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .scanline-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: rgba(0, 255, 65, 0.1);
+    animation: scanline 8s linear infinite;
+    pointer-events: none;
+    z-index: 10;
+  }
+}
