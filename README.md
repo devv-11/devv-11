@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:devanandrt1011@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💼-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devanandrt/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devv-11)
-[![Portfolio](https://img.shields.io/badge/🌐-Portfolio-00FF41?style=flat-square)](https://devv-devanand.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐-Portfolio-00FF41?style=flat-square)](https://devv-porftolio.vercel.app)
 
 ---
 
@@ -115,7 +115,7 @@ $ echo "Let's build something secure together."
 [![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devanandrt1011@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devanandrt/)
 [![GitHub](https://img.shields.io/badge/🐙_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devv-11)
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-00FF41?style=for-the-badge)](https://devv-devanand.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-00FF41?style=for-the-badge)](https://devv-porftolio.vercel.app)
 [![Phone](https://img.shields.io/badge/📱_Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+919025710247)
 
 </div>
