@@ -6,9 +6,9 @@
 
 **📍 Chennai, India** &nbsp;|&nbsp; **🔒 Building secure, modern web experiences**
 
-[![Email](https://img.shields.io/badge/📧-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:devanandrt1011@gmail.com)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:devanandrt1011@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💼-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devanandrt/)
-[![GitHub](https://img.shields.io/badge/🐙-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devv-11)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devv-11)
 [![Portfolio](https://img.shields.io/badge/🌐-Portfolio-00FF41?style=flat-square)](https://portfolio-chi-flax-13.vercel.app)
 
 ---
